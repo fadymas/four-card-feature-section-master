@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/style.min.css" />
+
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body class="font-['Poppins',sans-serif]">
+    <main
+      class="main-wrapper lg:mt-27.5 mt-16 px-7 flex flex-col items-center text-center"
+    >
+      <!-- ========== Hero Section ========== -->
+      <header
+        class="hero flex flex-col items-center gap-[0.69rem] lg:gap-3 tracking-[0.015rem] mb-14.5 lg:mb-18"
+      >
+        <h1
+          class="hero__subtitle font-extralight text-[clamp(1.5rem,2vw+1rem,2.1rem)] text-Grey400"
+        >
+          Reliable, efficient delivery
+        </h1>
+        <h2
+          class="hero__title font-semibold text-[clamp(1.5rem,2.5vw+1rem,2.25rem)]/[2.5rem] text-Grey500"
+        >
+          Powered by Technology
+        </h2>
+        <p
+          class="hero__description font-normal text-[0.8rem]/[1.375rem] tracking-[0.0938rem] max-w-[550px]"
+        >
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+
+      <!-- ========== Benefits Section ========== -->
+      <section
+        class="benefits grid grid-cols-1 grid-rows-4 gap-y-6.5 lg:grid-cols-3 lg:grid-rows-4 lg:gap-y-9 lg:gap-x-11.5 lg:max-w-6xl"
+      >
+        <!-- Benefit Card Component -->
+        <article
+          class="benefit-card after:bg-Cyan lg:row-start-2 lg:row-span-2 lg:col-start-1"
+        >
+          <div class="benefit-card__content text-start flex flex-col gap-1.5">
+            <h3
+              class="benefit-card__title text-Grey500 font-semibold text-xl/snug"
+            >
+              Supervisor
+            </h3>
+            <p
+              class="benefit-card__text text-Grey400 font-normal text-[0.8125rem] tracking-[0.00813rem]"
+            >
+              Monitors activity to identify project roadblocks
+            </p>
+          </div>
+          <img
+            class="benefit-card__icon self-end"
+            src="images/icon-supervisor.svg"
+            alt="Supervisor icon"
+          />
+        </article>
+
+        <article
+          class="benefit-card after:bg-Red lg:row-start-1 lg:row-span-2 lg:col-start-2"
+        >
+          <div class="benefit-card__content text-start flex flex-col gap-1.5">
+            <h3
+              class="benefit-card__title text-Grey500 font-semibold text-xl/snug"
+            >
+              Team Builder
+            </h3>
+            <p
+              class="benefit-card__text text-Grey400 font-normal text-[0.8125rem] tracking-[0.00813rem]"
+            >
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+          </div>
+          <img
+            class="benefit-card__icon self-end"
+            src="images/icon-team-builder.svg"
+            alt="Team Builder icon"
+          />
+        </article>
+
+        <article
+          class="benefit-card after:bg-Orange lg:row-start-3 lg:row-span-2 lg:col-start-2"
+        >
+          <div class="benefit-card__content text-start flex flex-col gap-1.5">
+            <h3
+              class="benefit-card__title text-Grey500 font-semibold text-xl/snug"
+            >
+              Karma
+            </h3>
+            <p
+              class="benefit-card__text text-Grey400 font-normal text-[0.8125rem] tracking-[0.00813rem]"
+            >
+              Regularly evaluates our talent to ensure quality
+            </p>
+          </div>
+          <img
+            class="benefit-card__icon self-end"
+            src="images/icon-karma.svg"
+            alt="Karma icon"
+          />
+        </article>
+
+        <article
+          class="benefit-card after:bg-Blue lg:row-start-2 lg:row-span-2 lg:col-start-3"
+        >
+          <div class="benefit-card__content text-start flex flex-col gap-1.5">
+            <h3
+              class="benefit-card__title text-Grey500 font-semibold text-xl/snug"
+            >
+              Calculator
+            </h3>
+            <p
+              class="benefit-card__text text-Grey400 font-normal text-[0.8125rem] tracking-[0.00813rem]"
+            >
+              Uses data from past projects to provide better delivery estimates
+            </p>
+          </div>
+          <img
+            class="benefit-card__icon self-end"
+            src="images/icon-calculator.svg"
+            alt="Calculator icon"
+          />
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
