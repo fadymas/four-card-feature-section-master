@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-tailwind-css-css-grid-U06ij920EM)]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-tailwind-css-css-grid-U06ij920EM))
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-tailwind-css-css-grid-U06ij920EM](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-tailwind-css-css-grid-U06ij920EM)
 - Live Site URL: [https://fadymas.github.io/four-card-feature-section-master/](https://fadymas.github.io/four-card-feature-section-master/)
 
 ## My process
